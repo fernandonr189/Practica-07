@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Practica 7</string>
+    <string name="login_label">Iniciar sesion:</string>
+    <string name="welcome_label">Bienvenido</string>
+    <string name="user_textfield_hint">Usuario</string>
+    <string name="password_textfield_hint">Contraseña</string>
+    <string name="login_button_label">Iniciar sesion</string>
+    <string name="exit_button_label">Salir</string>
+    <string name="order_button_label">Pedido</string>
+    <string name="products_button_label">Productos</string>
+    <string name="orders_button_label">Compras</string>
+    <string name="about_button_label">Nosotros</string>
+    <string name="logout_button_label">Cerrar sesión</string>
+    <string name="welcome_text_label">Bienvenido!</string>
+    <string name="name_textfield_hint">Nombre</string>
+    <string name="address_textfield_hint">Domicilio</string>
+    <string name="product_textfield_hint">Producto</string>
+    <string name="talla_textfield_hint">Talla</string>
+    <string name="phone_textfield_hint">Telefono</string>
+    <string name="register_button_label">Registrar</string>
+    <string name="cancel_order_button_label">Cancelar</string>
+
+    <string-array name="Sizes">
+        <item>Chico</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+    </string-array>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".activities.MainMenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/welcome_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_text_label"
+            android:textSize="48sp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+        <Button
+            android:id="@+id/order_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/order_button_label"
+            android:layout_margin="8dp"/>
+        <Button
+            android:id="@+id/products_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/products_button_label"
+            android:layout_margin="8dp"/>
+        <Button
+            android:id="@+id/orders_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/orders_button_label"
+            android:layout_margin="8dp"/>
+        <Button
+            android:id="@+id/about_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_button_label"
+            android:layout_margin="8dp"/>
+        <Button
+            android:id="@+id/logout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logout_button_label"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

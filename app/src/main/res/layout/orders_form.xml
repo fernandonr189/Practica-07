@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context=".activities.OrdersFormActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/create_order_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crear pedido:"
+            android:textSize="48sp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/address_textfield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/address_textfield_hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Spinner
+            android:id="@+id/products_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="8dp"/>
+
+        <Spinner
+            android:id="@+id/size_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_margin="8dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/phone_textfield"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/phone_textfield_hint" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/register_order_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register_button_label"
+            android:layout_margin="8dp"/>
+
+        <Button
+            android:id="@+id/cancel_order_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_order_button_label"
+            android:layout_margin="8dp"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
